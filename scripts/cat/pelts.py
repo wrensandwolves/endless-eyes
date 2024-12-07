@@ -55,10 +55,97 @@ class Pelt:
                    'classic', 'sokoke', 'agouti', 'singlestripe', 'masked']
 
     pelt_length = ["short", "medium", "long"]
-    eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD',
-                   'PALEBLUE',
-                   'PALEYELLOW', 'GOLD', 'HEATHERBLUE', 'COPPER', 'SAGE', 'COBALT', 'SUNLITICE', 'GREENYELLOW',
-                   'BRONZE', 'SILVER']
+    eye_colours = [
+                    # row one
+                    'YELLOW', 'AMBER', 'HAZEL', 'PALE GREEN', 'GREEN',
+                     'BLUE', 'DARK BLUE', 'GREY', 'CYAN', 'EMERALD',
+                     'HEATHER BLUE', 'SUNLIT ICE', 'COPPER', 'SAGE', 'COBALT',
+            
+                    # row two
+                    'PALE BLUE', 'BRONZE', 'SILVER', 'PALE YELLOW', 'GOLD',
+                     'GREEN-YELLOW', 'CHESTNUT', 'RIME', 'ROSE QUARTZ', 'TWILIGHT',
+                     'PEACH', 'BOGGY RAIN', 'TROPICAL SUNRISE', 'OCEAN SUNRISE', 'HEADLIGHTS',
+            
+                    # row three
+                    'PURPLE', 'PINK', 'RED', 'ORANGE', 'PANSY',
+                     'BUDGIE', 'GHOST', 'DUST', 'SILVER-BLUE', 'SAPPHIRE',
+                     'CRYSTAL', 'STONE', 'MAGENTA', 'SUNLIGHT', 'LIME',
+            
+                    # row four
+                    'DIRT', 'DUSK', 'SPROUT', 'LIGHT TURQUOISE', 'DEEP PURPLE',
+                     'LILY OF THE INCAS', 'SKY BLUE', 'TROPICAL OCEAN', 'BRIGHT RED', 'HONEY',
+                     'SEASIDE', 'UNDERBRUSH', 'DULL PURPLE', 'LIGHT PINK', 'BONE MARROW',
+            
+                    # row five
+                    'PALE BROWN', 'BOG MOSS', 'DEEP MAGENTA', 'COTTON CANDY', 'CROCODILE',
+                     'VIRDIAN', 'WITHERED PLANT', 'EMBER', 'SUNLIT DUSK', 'DIRT CLUMP',
+                     'DRY SOIL', 'BROWN', 'DROWNED GHOST', 'DAZZLING SUNRISE', 'PALE TEAL',
+            
+                    # row six
+                    'AMETHYST', 'SPRING', 'STORM CLOUD', 'DARK TAN', 'DARK RED',
+                    'CHERRY BLOSSOM', 'PALE GOLD', 'NIGHT CLOUDS', 'PASTEL GREEN', 'PUMPKIN',
+                    'CYBER GAZE', 'MIXED BLUES', 'SOFT NIGHT', 'SUNBURST', 'TURQUOISE',
+            
+                    # row seven
+                    'BURNING FLAME', 'EARLY DUSK', 'MUD', 'BRIGHT TURQUOISE', 'WOLF',
+                    'BABY BLUE', 'SEAFOAM', 'EARLY SUNRISE', 'PASTEL SKIES', 'SPARKLING GRAPE',
+                    'NAME ME! (101)', 'POND', 'FOSSIL', 'AZURE', 'AUTUMN',
+            
+                    # row eight
+                    'FIRE SALAMANDER', 'UPSIDEDOWN MAGENTA', 'PURPLE GLOSSY STARLING', 'TURTLE SHELL', 'VERBENA',
+                    'NAME ME! (111)', 'BOG WATER', 'PINK PANSY', 'UPSIDEDOWN PURPLE', 'SLATE',
+                    'LUSH POND', 'BLUEJAY', 'DUSK CLOUDS', 'PANSY PETAL', 'BUDDING LEAVES',
+            
+                    # row nine
+                    'LAVENDER GARDEN', 'ROUGE', 'NAME ME! (123)', 'MUDDY ICE', 'DRYING CLAY',
+                    'SCARLET GUM', 'SPRING LEAVES', 'NAME ME! (128)', 'DRYING LEAVES', 'MONTE CARLO',
+                    'EARLY SUNRISE', 'NAME ME! (132)', 'VEGETATED PEAT', 'NAME ME! (135)', 'NAME ME! (135)',
+            
+                    # row ten
+                    'PASTEL CLOUDS', 'WETLANDS', 'APPLE CORE', 'MOUNTAINOUS', 'ANGELIC',
+                    'WOODPECKER', 'RED APPLE', 'NAME ME! (143)', 'SKY-HIGH FLAME', 'PINK OPAL',
+                    'EARLY MORNING', 'NAME ME! (147)', 'BLUE-GREEN WATER', 'REVERSED INDIGO', 'NAME ME! (150)',
+            
+                    # row eleven
+                    'MEDIUM VERMILLION', 'WATER LETTUCE', 'MANICURE', 'NAME ME! (154)', 'LIGHT HAZEL',
+                    'NIGHT SEA', 'NAME ME! (157)', 'CAMELOT', 'MUDDY FEN', 'FEN',
+                    'NAME ME! (161)', 'SUNSET RED', 'ROSE BUD', 'NAME ME! (164)', 'PANSY PETALS',
+            
+                    # row twelve
+                    'NAME ME! (166)', 'NAME ME! (167)', 'NAME ME! (168)', 'ICY EVERGREEN', 'NAME ME! (170)',
+                    'NAME ME! (171)', 'NAME ME! (172)', 'NAME ME! (173)', 'DEEP LILAC', 'NAME ME! (175)',
+                    'CANDLELIGHT FLAME', 'SUNLIT LAGOON', 'NIGHT MEADOW', 'IMPERIAL SWORD', 'BABY BLUE BLANKET',
+            
+                    # row thirteen
+                    'RAINFOREST GREEN', 'RED-BACKED SALAMANDER', 'MOSS GREEN', 'GENTLE GLOW', 'SMASHED MULBERRY',
+                    'PASTEL PURPLE CLOUDS', 'CORNFLOWER', 'NAME ME! (188)', 'SAKURA', 'SUNLIT RIVER',
+                    'MIDNIGHT SEA', 'NAME ME! (192)', 'TIKTOK', 'RASPBERRY BLUES', 'PURPLE POISON',
+            
+                    # row fourteen
+                    'SQUASH HARVEST', 'FLAMINGO FEATHER', 'SWAMP SHACK', 'PTILOTUS', 'NAME ME! (200)',
+                    'WILD RICE', 'RIVER ORCHID', 'DEMONIC GLOW', 'SLATE BLUE', 'ENCHANTED MEADOW',
+                    'NAME ME! (206)', 'NAME ME! (207)', 'NIGHTTIME SEAFOAM', 'BROCCOLI', 'NAME ME! (210)',
+            
+                    # row fifteen
+                    'BLACK WIDOW', 'DEMONIC PINK', 'PURPLE ILLUSION', 'RED RANUCULUS', 'INFERNAL FLAME',
+                    'PELOROUS', 'FLAME', 'PURPLE ANEMONE', 'GRAPEVINE', 'VELVET WINE',
+                    'WOLF COAT', 'CRANBERRY BEAN', 'NAME ME! (223)', 'SEAFOAM GREEN', 'REVERSED FLAME',
+            
+                    # row sixteen
+                    'MYSTICAL LEATHER BOOK', 'DARK HAILSTORM', 'NAME ME! (228)', 'YOUNG PUMPKIN', 'DANCING FAIRY',
+                    'SEASIDE', 'NAME ME! (232)', 'CRIMSON STEEL', 'WONDERBERRY', 'LUNGWORT',
+                    'NAME ME! (236)', 'RED SUNFLOWER', 'REEF', 'NIGHT LANTERN', 'SUNNY DROPLET',
+            
+                    # row seventeen
+                    'COSMIC EXPLORER', 'BLANKET FLOWER', 'OCEAN ABYSS', 'COMBUSTION', 'SKYDIVER',
+                    'BLACKBERRY LEMONADE', 'ROYAL PEACOCK', 'BLACK CHERRY', 'HOT SUMMER DAY', 'NAME ME! (250)',
+                    'RED DAHLIA', 'NIGHTSHADE BUSH', 'NAME ME! (253)', 'FROZEN LIGHT', 'NAME ME! (255)',
+            
+                    # row eighteen
+                    'MYSTICAL MIDDAY', 'DULLED PURPLE', 'NAME ME! (258)', 'PASTEL SUNDOWN', 'ENCHANTERSPINK',
+                    'PLUM PIE', 'EMERALD TREE', 'WOODLAND FIREFLY', 'MORNING BREW', 'PINK VOID',
+                    'HAZELNUT', 'VERDANT LEAF', 'KISSABLE STAR', 'GHOSTLY TOAD KING', 'OVERGROWN ROSE GARDEN'
+                  ]
     yellow_eyes = ['YELLOW', 'AMBER', 'PALEYELLOW', 'GOLD', 'COPPER', 'GREENYELLOW', 'BRONZE', 'SILVER']
     blue_eyes = ['BLUE', 'DARKBLUE', 'CYAN', 'PALEBLUE', 'HEATHERBLUE', 'COBALT', 'SUNLITICE', 'GREY']
     green_eyes = ['PALEGREEN', 'GREEN', 'EMERALD', 'SAGE', 'HAZEL']
@@ -119,9 +206,95 @@ class Pelt:
     brown_colours = ['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']
     colour_categories = [ginger_colours, black_colours, white_colours, brown_colours]
     eye_sprites = [
-        'YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'BLUEYELLOW', 'BLUEGREEN',
-        'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 'PALEYELLOW', 'GOLD', 'HEATHERBLUE', 'COPPER', 'SAGE', 'COBALT',
-        'SUNLITICE', 'GREENYELLOW', 'BRONZE', 'SILVER'
+        # row one
+        'YELLOW', 'AMBER', 'HAZEL', 'PALE GREEN', 'GREEN',
+        'BLUE', 'DARK BLUE', 'GREY', 'CYAN', 'EMERALD',
+        'HEATHER BLUE', 'SUNLIT ICE', 'COPPER', 'SAGE', 'COBALT',
+
+        # row two
+        'PALE BLUE', 'BRONZE', 'SILVER', 'PALE YELLOW', 'GOLD',
+        'GREEN-YELLOW', 'CHESTNUT', 'RIME', 'ROSE QUARTZ', 'TWILIGHT',
+        'PEACH', 'BOGGY RAIN', 'TROPICAL SUNRISE', 'OCEAN SUNRISE', 'HEADLIGHTS',
+
+        # row three
+        'PURPLE', 'PINK', 'RED', 'ORANGE', 'PANSY',
+         'BUDGIE', 'GHOST', 'DUST', 'SILVER-BLUE', 'SAPPHIRE',
+         'CRYSTAL', 'STONE', 'MAGENTA', 'SUNLIGHT', 'LIME',
+
+        # row four
+        'DIRT', 'DUSK', 'SPROUT', 'LIGHT TURQUOISE', 'DEEP PURPLE',
+         'LILY OF THE INCAS', 'SKY BLUE', 'TROPICAL OCEAN', 'BRIGHT RED', 'HONEY',
+         'SEASIDE', 'UNDERBRUSH', 'DULL PURPLE', 'LIGHT PINK', 'BONE MARROW',
+
+        # row five
+        'PALE BROWN', 'BOG MOSS', 'DEEP MAGENTA', 'COTTON CANDY', 'CROCODILE',
+         'VIRDIAN', 'WITHERED PLANT', 'EMBER', 'SUNLIT DUSK', 'DIRT CLUMP',
+         'DRY SOIL', 'BROWN', 'DROWNED GHOST', 'DAZZLING SUNRISE', 'PALE TEAL',
+
+        # row six
+        'AMETHYST', 'SPRING', 'STORM CLOUD', 'DARK TAN', 'DARK RED',
+        'CHERRY BLOSSOM', 'PALE GOLD', 'NIGHT CLOUDS', 'PASTEL GREEN', 'PUMPKIN',
+        'CYBER GAZE', 'MIXED BLUES', 'SOFT NIGHT', 'SUNBURST', 'TURQUOISE',
+
+        # row seven
+        'BURNING FLAME', 'EARLY DUSK', 'MUD', 'BRIGHT TURQUOISE', 'WOLF',
+        'BABY BLUE', 'SEAFOAM', 'EARLY SUNRISE', 'PASTEL SKIES', 'SPARKLING GRAPE',
+        'NAME ME! (101)', 'POND', 'FOSSIL', 'AZURE', 'AUTUMN',
+
+        # row eight
+        'FIRE SALAMANDER', 'UPSIDEDOWN MAGENTA', 'PURPLE GLOSSY STARLING', 'TURTLE SHELL', 'VERBENA',
+        'NAME ME! (111)', 'BOG WATER', 'PINK PANSY', 'UPSIDEDOWN PURPLE', 'SLATE',
+        'LUSH POND', 'BLUEJAY', 'DUSK CLOUDS', 'PANSY PETAL', 'BUDDING LEAVES',
+
+        # row nine
+        'LAVENDER GARDEN', 'ROUGE', 'NAME ME! (123)', 'MUDDY ICE', 'DRYING CLAY',
+        'SCARLET GUM', 'SPRING LEAVES', 'NAME ME! (128)', 'DRYING LEAVES', 'MONTE CARLO',
+        'EARLY SUNRISE', 'NAME ME! (132)', 'VEGETATED PEAT', 'NAME ME! (135)', 'NAME ME! (135)',
+
+        # row ten
+        'PASTEL CLOUDS', 'WETLANDS', 'APPLE CORE', 'MOUNTAINOUS', 'ANGELIC',
+        'WOODPECKER', 'RED APPLE', 'NAME ME! (143)', 'SKY-HIGH FLAME', 'PINK OPAL',
+        'EARLY MORNING', 'NAME ME! (147)', 'BLUE-GREEN WATER', 'REVERSED INDIGO', 'NAME ME! (150)',
+
+        # row eleven
+        'MEDIUM VERMILLION', 'WATER LETTUCE', 'MANICURE', 'NAME ME! (154)', 'LIGHT HAZEL',
+        'NIGHT SEA', 'NAME ME! (157)', 'CAMELOT', 'MUDDY FEN', 'FEN',
+        'NAME ME! (161)', 'SUNSET RED', 'ROSE BUD', 'NAME ME! (164)', 'PANSY PETALS',
+
+        # row twelve
+        'NAME ME! (166)', 'NAME ME! (167)', 'NAME ME! (168)', 'ICY EVERGREEN', 'NAME ME! (170)',
+        'NAME ME! (171)', 'NAME ME! (172)', 'NAME ME! (173)', 'DEEP LILAC', 'NAME ME! (175)',
+        'CANDLELIGHT FLAME', 'SUNLIT LAGOON', 'NIGHT MEADOW', 'IMPERIAL SWORD', 'BABY BLUE BLANKET',
+
+        # row thirteen
+        'RAINFOREST GREEN', 'RED-BACKED SALAMANDER', 'MOSS GREEN', 'GENTLE GLOW', 'SMASHED MULBERRY',
+        'PASTEL PURPLE CLOUDS', 'CORNFLOWER', 'NAME ME! (188)', 'SAKURA', 'SUNLIT RIVER',
+        'MIDNIGHT SEA', 'NAME ME! (192)', 'TIKTOK', 'RASPBERRY BLUES', 'PURPLE POISON',
+
+        # row fourteen
+        'SQUASH HARVEST', 'FLAMINGO FEATHER', 'SWAMP SHACK', 'PTILOTUS', 'NAME ME! (200)',
+        'WILD RICE', 'RIVER ORCHID', 'DEMONIC GLOW', 'SLATE BLUE', 'ENCHANTED MEADOW',
+        'NAME ME! (206)', 'NAME ME! (207)', 'NIGHTTIME SEAFOAM', 'BROCCOLI', 'NAME ME! (210)',
+
+        # row fifteen
+        'BLACK WIDOW', 'DEMONIC PINK', 'PURPLE ILLUSION', 'RED RANUCULUS', 'INFERNAL FLAME',
+        'PELOROUS', 'FLAME', 'PURPLE ANEMONE', 'GRAPEVINE', 'VELVET WINE',
+        'WOLF COAT', 'CRANBERRY BEAN', 'NAME ME! (223)', 'SEAFOAM GREEN', 'REVERSED FLAME',
+
+        # row sixteen
+        'MYSTICAL LEATHER BOOK', 'DARK HAILSTORM', 'NAME ME! (228)', 'YOUNG PUMPKIN', 'DANCING FAIRY',
+        'SEASIDE', 'NAME ME! (232)', 'CRIMSON STEEL', 'WONDERBERRY', 'LUNGWORT',
+        'NAME ME! (236)', 'RED SUNFLOWER', 'REEF', 'NIGHT LANTERN', 'SUNNY DROPLET',
+
+        # row seventeen
+        'COSMIC EXPLORER', 'BLANKET FLOWER', 'OCEAN ABYSS', 'COMBUSTION', 'SKYDIVER',
+        'BLACKBERRY LEMONADE', 'ROYAL PEACOCK', 'BLACK CHERRY', 'HOT SUMMER DAY', 'NAME ME! (250)',
+        'RED DAHLIA', 'NIGHTSHADE BUSH', 'NAME ME! (253)', 'FROZEN LIGHT', 'NAME ME! (255)',
+
+        # row eighteen
+        'MYSTICAL MIDDAY', 'DULLED PURPLE', 'NAME ME! (258)', 'PASTEL SUNDOWN', 'ENCHANTERSPINK',
+        'PLUM PIE', 'EMERALD TREE', 'WOODLAND FIREFLY', 'MORNING BREW', 'PINK VOID',
+        'HAZELNUT', 'VERDANT LEAF', 'KISSABLE STAR', 'GHOSTLY TOAD KING', 'OVERGROWN ROSE GARDEN'
     ]
     little_white = ['LITTLE', 'LIGHTTUXEDO', 'BUZZARDFANG', 'TIP', 'BLAZE', 'BIB', 'VEE', 'PAWS',
                     'BELLY', 'TAILTIP', 'TOES', 'BROKENBLAZE', 'LILTWO', 'SCOURGE', 'TOESTAIL', 'RAVENPAW', 'HONEY',
