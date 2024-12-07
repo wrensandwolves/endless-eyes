@@ -156,9 +156,206 @@ class Sprites:
 
         # Define eye colors
         eye_colors = [
-            ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD',
-             'HEATHERBLUE', 'SUNLITICE'],
-            ['COPPER', 'SAGE', 'COBALT', 'PALEBLUE', 'BRONZE', 'SILVER', 'PALEYELLOW', 'GOLD', 'GREENYELLOW']
+            # base game: 1-21
+            # endless eyes: 22-270
+            
+            # row one
+            # ['1', '2', '3', '4', '5',
+            # '6', '7', '8', '9', '10',
+            # '11', '12', '13', '14', '15']
+            # yellow, amber, hazel, pale green, green,
+            # blue, dark blue, grey, cyan, emerald,
+            # heather blue, sunlit ice, copper, sage, cobalt
+            ['YELLOW', 'AMBER', 'HAZEL', 'PALE GREEN', 'GREEN',
+             'BLUE', 'DARK BLUE', 'GREY', 'CYAN', 'EMERALD',
+             'HEATHER BLUE', 'SUNLIT ICE', 'COPPER', 'SAGE', 'COBALT'],
+            
+            # row two
+            # ['16', '17', '18', '19', '20',
+            # '21', '22', '23', '24', '25',
+            # '26', '27', '28', '29', '30']
+            # pale blue, bronze, silver, pale yellow, gold,
+            # green-yellow, chestnut, rime, rose quartz, twilight,
+            # peach, boggy rain, tropical sunrise, ocean sunrise, headlights
+            ['PALE BLUE', 'BRONZE', 'SILVER', 'PALE YELLOW', 'GOLD',
+             'GREEN-YELLOW', 'CHESTNUT', 'RIME', 'ROSE QUARTZ', 'TWILIGHT',
+             'PEACH', 'BOGGY RAIN', 'TROPICAL SUNRISE', 'OCEAN SUNRISE', 'HEADLIGHTS'],
+            
+            # row three
+            # ['31', '32', '33', '34', '35',
+            # '36', '37', '38', '39', '40',
+            # '41', '42', '43', '44', '45']
+            # purple, pink, red, orange, pansy,
+            # budgie, ghost, dust, silver-blue, sapphire,
+            # crystal, stone, magenta, sunlight, lime
+            ['PURPLE', 'PINK', 'RED', 'ORANGE', 'PANSY',
+             'BUDGIE', 'GHOST', 'DUST', 'SILVER-BLUE', 'SAPPHIRE',
+             'CRYSTAL', 'STONE', 'MAGENTA', 'SUNLIGHT', 'LIME'],
+            
+            # row four
+            # ['46', '47', '48', '49', '50',
+            # '51', '52', '53', '54', '55',
+            # '56', '57', '58', '59', '60']
+            # dirt, dusk, sprout, light turquoise, deep purple,
+            # lily of the incas, sky blue, tropical ocean, bright red, honey,
+            # seaside, underbrush, dull purple, light pink, bone marrow
+            ['DIRT', 'DUSK', 'SPROUT', 'LIGHT TURQUOISE', 'DEEP PURPLE',
+             'LILY OF THE INCAS', 'SKY BLUE', 'TROPICAL OCEAN', 'BRIGHT RED', 'HONEY',
+             'SEASIDE', 'UNDERBRUSH', 'DULL PURPLE', 'LIGHT PINK', 'BONE MARROW'],
+            
+            # row five
+            # ['61', '62', '63', '64', '65',
+            # '66', '67', '68', '69', '70',
+            # '71', '72', '73', '74', '75']
+            # pale brown, bog moss, deep magenta, cotton candy, crocodile
+            # virdian, withered plant, ember, sunlit dusk, dirt clump
+            # dry soil, brown, drowned ghost, dazzling sunrise, pale teal
+            ['PALE BROWN', 'BOG MOSS', 'DEEP MAGENTA', 'COTTON CANDY', 'CROCODILE',
+             'VIRDIAN', 'WITHERED PLANT', 'EMBER', 'SUNLIT DUSK', 'DIRT CLUMP',
+             'DRY SOIL', 'BROWN', 'DROWNED GHOST', 'DAZZLING SUNRISE', 'PALE TEAL'],
+            
+            # row six
+            # ['76', '77', '78', '79', '80',
+            # '81', '82', '83', '84', '84',
+            # '86', '87', '88', '89', '90']
+            # amethyst, spring, storm cloud, dark tan, dark red
+            # cherry blossom, pale gold, night clouds, pastel green, pumpkin
+            # cyber gaze, mixed blues, soft night, sunburst, turquoise
+            ['AMETHYST', 'SPRING', 'STORM CLOUD', 'DARK TAN', 'DARK RED',
+             'CHERRY BLOSSOM', 'PALE GOLD', 'NIGHT CLOUDS', 'PASTEL GREEN', 'PUMPKIN',
+             'CYBER GAZE', 'MIXED BLUES', 'SOFT NIGHT', 'SUNBURST', 'TURQUOISE'],
+            
+            # row seven
+            # ['91', '92', '93', '94', '95', '96',
+            # '97', '98', '99', '100',
+            # '101', '102', '103', '104', '105']
+            # burning flame, early dusk, mud, bright turquoise, wolf,
+            # baby blue, seafoam, early sunrise, pastel skies, sparkling grape,
+            # name me! (101), pond, fossil, azure, autumn
+            ['BURNING FLAME', 'EARLY DUSK', 'MUD', 'BRIGHT TURQUOISE', 'WOLF',
+             'BABY BLUE', 'SEAFOAM', 'EARLY SUNRISE', 'PASTEL SKIES', 'SPARKLING GRAPE',
+             'NAME ME! (101)', 'POND', 'FOSSIL', 'AZURE', 'AUTUMN'],
+            
+            # row eight
+            # ['106', '107', '108', '109', '110',
+            # '111', '112', '113', '114', '115',
+            # '116', '117', '118', '119', '120']
+            # fire salamander, upsidedown magenta, purple glossy starling, turtle shell, verbena
+            # name me! (111), bog water, pink pansy, upsidedown purple, slate
+            # lush pond, bluejay, dusk clouds, pansy petal, budding leaves
+            ['FIRE SALAMANDER', 'UPSIDEDOWN MAGENTA', 'PURPLE GLOSSY STARLING', 'TURTLE SHELL', 'VERBENA',
+             'NAME ME! (111)', 'BOG WATER', 'PINK PANSY', 'UPSIDEDOWN PURPLE', 'SLATE',
+             'LUSH POND', 'BLUEJAY', 'DUSK CLOUDS', 'PANSY PETAL', 'BUDDING LEAVES'],
+            
+            # row nine
+            # ['121', '122', '123', '124', '125',
+            # '126', '127', '128', '129', '130',
+            # '131', '132', '133', '134', '135']
+            # lavender garden, rouge, name me! (123), muddy ice, drying clay
+            # scarlet gum, spring leaves, name me! (128), drying leaves, monte carlo
+            # early sunrise, name me! (132), vegetated peat, name me! (134), name me! (135)
+            ['LAVENDER GARDEN', 'ROUGE', 'NAME ME! (123)', 'MUDDY ICE', 'DRYING CLAY',
+             'SCARLET GUM', 'SPRING LEAVES', 'NAME ME! (128)', 'DRYING LEAVES', 'MONTE CARLO',
+             'EARLY SUNRISE', 'NAME ME! (132)', 'VEGETATED PEAT', 'NAME ME! (135)', 'NAME ME! (135)'],
+            
+            # row ten
+            # ['136', '137', '138', '139', '140',
+            # '141', '142', '143', '144', '145',
+            # '146', '147', '148', '149', '150']
+            # pastel clouds, wetlands, apple core, mountainous, angelic
+            # woodpecker, red apple, name me! (143), sky-high flame, pink opal
+            # early morning, name me! (147), blue-green water, reversed indigo, name me! (150)
+            ['PASTEL CLOUDS', 'WETLANDS', 'APPLE CORE', 'MOUNTAINOUS', 'ANGELIC',
+             'WOODPECKER', 'RED APPLE', 'NAME ME! (143)', 'SKY-HIGH FLAME', 'PINK OPAL',
+             'EARLY MORNING', 'NAME ME! (147)', 'BLUE-GREEN WATER', 'REVERSED INDIGO', 'NAME ME! (150)'],
+            
+            # row eleven
+            # ['151', '152', '153', '154', '155',
+            # '156', '157', '158', '159', '160',
+            # '161', '162', '163', '164', '165']
+            # medium vermilion, water lettuce, manicure, name me! (154), light hazel,
+            # night sea, name me! (157), camelot, muddy fen, fen,
+            # name me! (161), sunset red, rose bud, name me! (164), pansy petals
+            ['MEDIUM VERMILLION', 'WATER LETTUCE', 'MANICURE', 'NAME ME! (154)', 'LIGHT HAZEL',
+             'NIGHT SEA', 'NAME ME! (157)', 'CAMELOT', 'MUDDY FEN', 'FEN',
+             'NAME ME! (161)', 'SUNSET RED', 'ROSE BUD', 'NAME ME! (164)', 'PANSY PETALS'],
+            
+            # row twelve
+            # ['166', '167', '168', '169', '170',
+            # '171', '172', '173', '174', '175',
+            # '176', '177', '178', '179', '180']
+            # name me! (166), name me! (167), name me! (168), icy evergreen, name me! (170)
+            # name me! (171), name me! (172), name me! (173), deep lilac, name me! (175)
+            # candlelight flame, sunlit lagoon, night meadow, imperial sword, baby blue blanket
+            ['NAME ME! (166)', 'NAME ME! (167)', 'NAME ME! (168)', 'ICY EVERGREEN', 'NAME ME! (170)',
+             'NAME ME! (171)', 'NAME ME! (172)', 'NAME ME! (173)', 'DEEP LILAC', 'NAME ME! (175)',
+             'CANDLELIGHT FLAME', 'SUNLIT LAGOON', 'NIGHT MEADOW', 'IMPERIAL SWORD', 'BABY BLUE BLANKET'],
+            
+            # row thirteen
+            # ['181', '182', '183', '184', '185',
+            # '186', '187', '188', '189', '190',
+            # '191', '192', '193', '194', '195']
+            # rainforest green, red-backed salamander, moss green, gentle glow, smashed mulberry
+            # pastel purple clouds, cornflower, name me! (188), sakura, sunlit river
+            # midnight sea, name me! (192), TikTok, raspberry blues, purple poison
+            ['RAINFOREST GREEN', 'RED-BACKED SALAMANDER', 'MOSS GREEN', 'GENTLE GLOW', 'SMASHED MULBERRY',
+             'PASTEL PURPLE CLOUDS', 'CORNFLOWER', 'NAME ME! (188)', 'SAKURA', 'SUNLIT RIVER',
+             'MIDNIGHT SEA', 'NAME ME! (192)', 'TIKTOK', 'RASPBERRY BLUES', 'PURPLE POISON'],
+            
+            # row fourteen
+            # ['196', '197', '198', '199', '200',
+            # '201', '202', '203', '204', '205',
+            # '206', '207', '208', '209', '210']
+            # squash harvest, flamingo feather, swamp shack, ptilotus, name me! (200)
+            # wild rice, river orchid, demonic glow, slate blue, enchanted meadow
+            # name me! (206), name me! (207), nighttime seafoam, broccoli, name me! (210)
+            ['SQUASH HARVEST', 'FLAMINGO FEATHER', 'SWAMP SHACK', 'PTILOTUS', 'NAME ME! (200)',
+             'WILD RICE', 'RIVER ORCHID', 'DEMONIC GLOW', 'SLATE BLUE', 'ENCHANTED MEADOW',
+             'NAME ME! (206)', 'NAME ME! (207)', 'NIGHTTIME SEAFOAM', 'BROCCOLI', 'NAME ME! (210)'],
+            
+            # row fifteen
+            # ['211', '212', '213', '214', '215',
+            # '216', '217', '218', '219', '220',
+            # '221', '222', '223', '224', '225']
+            # black widow, demonic pink, purple illusion, red ranunculus, infernal flame
+            # pelorous, flame, purple anemone, grapevine, velvet wine
+            # wolf coat, cranberry bean, name me! (223), seafoam green, reversed flame
+            ['BLACK WIDOW', 'DEMONIC PINK', 'PURPLE ILLUSION', 'RED RANUCULUS', 'INFERNAL FLAME',
+             'PELOROUS', 'FLAME', 'PURPLE ANEMONE', 'GRAPEVINE', 'VELVET WINE',
+             'WOLF COAT', 'CRANBERRY BEAN', 'NAME ME! (223)', 'SEAFOAM GREEN', 'REVERSED FLAME'],
+            
+            # row sixteen
+            # ['226', '227', '228', '229', '230',
+            # '231', '232', '233', '234', '235',
+            # '236', '237', '238', '239', '240']
+            # mystical leather book, dark hailstorm, name me! (228), young pumpkin, dancing fairy
+            # seaside, name me! (232), crimson steel, wonderberry, lungwort
+            # name me! (236), red sunflower, reef, night lantern, sunny droplet
+            ['MYSTICAL LEATHER BOOK', 'DARK HAILSTORM', 'NAME ME! (228)', 'YOUNG PUMPKIN', 'DANCING FAIRY',
+            'SEASIDE', 'NAME ME! (232)', 'CRIMSON STEEL', 'WONDERBERRY', 'LUNGWORT',
+            'NAME ME! (236)', 'RED SUNFLOWER', 'REEF', 'NIGHT LANTERN', 'SUNNY DROPLET'],
+            
+            # row seventeen
+            # ['241', '242', '243', '244', '245',
+            # '246', '247', '248', '249', '250',
+            # '251', '252', '253', '254', '255']
+            # cosmic explorer, blanket flower, ocean abyss, combustion, skydiver
+            # blackberry lemonade, royal peacock, black cherry, hot summer day, name me! (250)
+            # red dahlia, nightshade bush, name me! (253), frozen light, name me! (255)
+            ['COSMIC EXPLORER', 'BLANKET FLOWER', 'OCEAN ABYSS', 'COMBUSTION', 'SKYDIVER',
+            'BLACKBERRY LEMONADE', 'ROYAL PEACOCK', 'BLACK CHERRY', 'HOT SUMMER DAY', 'NAME ME! (250)',
+            'RED DAHLIA', 'NIGHTSHADE BUSH', 'NAME ME! (253)', 'FROZEN LIGHT', 'NAME ME! (255)'],
+            
+            # row eighteen
+            # ['256', '257', '258', '259', '260',
+            # '261', '262', '263', '264', '265',
+            # '266', '267', '268', '269', '270']
+            # mystical midday, dulled purple, name me! (258), pastel sundown, enchanter's pink
+            # plum pie, emerald tree, woodland firefly, morning brew, pink void
+            # hazelnut, verdant leaf, kissable star, ghostly toad king, overgrown rose garden
+            ['MYSTICAL MIDDAY', 'DULLED PURPLE', 'NAME ME! (258)', 'PASTEL SUNDOWN', 'ENCHANTERSPINK',
+            'PLUM PIE', 'EMERALD TREE', 'WOODLAND FIREFLY', 'MORNING BREW', 'PINK VOID',
+            'HAZELNUT', 'VERDANT LEAF', 'KISSABLE STAR', 'GHOSTLY TOAD KING', 'OVERGROWN ROSE GARDEN']
         ]
 
         for row, colors in enumerate(eye_colors):
