@@ -263,7 +263,7 @@
   "biome_suffixes": {
     "Forest": [
     "acorn", "antler", "beak", "branch", "clove", "cone", "dapple", "deer", "fawn", "fern", "fog", "frond", "grove", "moss", 
-    "sap", "shade", "twig", "wood", "thicket", "glade", "bear"
+    "sap", "shade", "twig", "wood", "thicket", "glade", "bear", "wolf", "buck"
     ],
     "Beach": [
     "current", "shell", "tide", "sand", "wave", "flood", "shore", "coast", "fin", "splash", "surf", "squid", "coral", "pearl",
@@ -362,7 +362,7 @@
     "COBALT": [
     "Blue", "Cobalt", "Ice", "Icy", "Sky", "Lake", "Frost", "Water", "Frosty", "Rime", "Cold", "Chill",
     "Frigid", "Deep", "Tide", "River", "Wave", "Cascade", "Waterfall", "Falling", "Loch", "Lagoon", "Bayou", "Creek",
-    "Cornflower"
+    "Cornflower", "Running", "Rush", "Rushing", "Permafrost", "Shudder", "Shuddering", "Thistle", "Iris", "Morpho", "Butterfly", "Delphinium"
     ],
     
     "PALE BLUE": [
@@ -501,6 +501,12 @@
     "CRYSTAL": [
     "Crystal", "Gem", "Gemstone", "Jewel", "Glitter", "Glittering", "Glittery", "Pale", "Soft", "Whimsy", "Whimsical", "Stone",
     "Moonstone", "Quartz", "Moon", "Moonlight", "Moonlit", "Periwinkle", "Granite", "Powder", "Powdered", "Snow", "Snowy", "Yonder"
+    ],
+	  
+    "STONE": [
+    "Stone", "Rock", "Boulder", "Cliff", "Giant", "Mountain", "Big", "Loom", "Looming", "Stony", "Gravel", "Pebble",
+    "Wolf", "Heron", "Possum", "Snow", "Leopard", "Fish", "Weevil", "Donkey", "Shark", "Cave", "Cavern", "Cavernous",
+    "Dark", "Darkened", "Blight", "Cobble", "Grit", "Grain", "Peak", "Ridge", "Bluff", "High", "Alp", "Rise"
     ]
     },
 
@@ -622,7 +628,8 @@
     "Windy", "Winry", "Winston", "Wishbone", "Wisp", "Wisteria", "Wizard", "Wolfe", "Wolfgang", "Wolverine", "Wonder", "Worm", "Wrath", "X'ek", "Xelle", "Xhosa", "Xiao", "Xola", "Yaoyao", "Yazhu", 
     "Yeet", "Yeeted", "Yen", "Yeobo", "Yeza", "Yinuo", "Yippee", "Yogurt", "Yokai", "Yoonmin", "Yooted", "Yoshi", "Yote", "Yuca", "Yuka", "Yuki", "Yumeko", "Yusuke", "Yuzu", "Yvaine", "Zach", "Zachary", 
     "Zahra", "Zambezi", "Zambia", "Zaniah", "Zari", "Zariah", "Zarya", "Zazu", "Zebra", "Zekrom", "Zelda", "Zell", "Zendaya", "Zenith", "Zenyatta", "Zephyr", "Zeraora", "Zikomo", "Zim", "Zion", "Zira", 
-    "Ziti", "Zoe", "Zoomie", "Zorro", "Zorua", "Zuberi", "Zuko", "Zuma", "Zuna", "Zuva"
+    "Ziti", "Zoe", "Zoomie", "Zorro", "Zorua", "Zuberi", "Zuko", "Zuma", "Zuna", "Zuva",
+    "Bebs", "Babo", "Creature", "Creature Feature", "Featuring the Creature", "Organization?", "Forgor", "Slug on Pumpkin", "Mythical Night Lemon", "Mythical Leather Book"
   ],
 	"animal_suffixes": [
 		"badger", "bat", "bear", "bee", "beetle", "bird", "bug", "cricket", "deer", "eagle", "elk", "falcon", "fawn", "fish", "fox", "goose", "hare", "hawk", "horse", 
