@@ -366,7 +366,18 @@ class Sprites:
             # lemony grape candy, dirt pond, tangerine sea, summer harvest, inversed plum
             ['LEATHER SATCHEL', 'SLUG ON PUMPKIN', 'HARMONIC PEARL', 'RED DEER', 'GOLD MINE',
             'MORNING MIRAGE', 'GREEN TOAD', 'HARE IN A CABBAGE FIELD', 'DIRT ROAD AT NIGHT', 'MYTHICAL NIGHT LEMON',
-            'LEMONY GRAPE CANDY', 'DIRT POND', 'TANGERINE SEA', 'SUMMER HARVEST', 'INVERSED PLUM']
+            'LEMONY GRAPE CANDY', 'DIRT POND', 'TANGERINE SEA', 'SUMMER HARVEST', 'INVERSED PLUM'],
+            
+            # row twenty
+            # ['286', '287', '288', '289', '290',
+            # '291', '292', '293', '294', '295',
+            # '296', '297', '298', '299', '300']
+            # vintage pink poodle, sparking metal, cyber blacklist, lovely cherry blossom, strawberry pink
+            # coffee grounds, glittering amber, kingfisher, graphite pencil, pheasant in spring
+            # river clay, russet, light at sea, chocolate, street caramel
+            ['VINTAGE PINK POODLE', 'SPARKING METAL', 'CYBER BLACKLIST', 'LOVELY CHERRY BLOSSOM', 'STRAWBERRY PINK',
+            'COFFEE GROUNDSA', 'GLITTERING AMBER', 'KINGFISHER', 'GRAPHITE PENCIL', 'PHEASANT IN SPRING',
+            'RIVER CLAY', 'RUSSET', 'LIGHT AT SEA', 'CHOCOLATE', 'STREET CARAMEL']
         ]
 
         for row, colors in enumerate(eye_colors):
