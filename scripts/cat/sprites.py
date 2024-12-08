@@ -355,7 +355,18 @@ class Sprites:
             # hazelnut, verdant leaf, kissable star, ghostly toad king, overgrown rose garden
             ['MYSTICAL MIDDAY', 'DULLED PURPLE', 'NAME ME! (258)', 'PASTEL SUNDOWN', 'ENCHANTERSPINK',
             'PLUM PIE', 'EMERALD TREE', 'WOODLAND FIREFLY', 'MORNING BREW', 'PINK VOID',
-            'HAZELNUT', 'VERDANT LEAF', 'KISSABLE STAR', 'GHOSTLY TOAD KING', 'OVERGROWN ROSE GARDEN']
+            'HAZELNUT', 'VERDANT LEAF', 'KISSABLE STAR', 'GHOSTLY TOAD KING', 'OVERGROWN ROSE GARDEN'],
+
+            # row nineteen
+            # ['271', '272', '273', '274', '275',
+            # '276', '277', '278', '279', '280',
+            # '281', '282', '283', '284', '285']
+            # leather satchel, slug on pumpkin, harmonic pearl, red deer, gold mine
+            # morning mirage, green toad, hare in a cabbage field, dirt road at night, mythical night lemon
+            # lemony grape candy, dirt pond, tangerine sea, summer harvest, inversed plum
+            ['LEATHER SATCHEL', 'SLUG ON PUMPKIN', 'HARMONIC PEARL', 'RED DEER', 'GOLD MINE',
+            'MORNING MIRAGE', 'GREEN TOAD', 'HARE IN A CABBAGE FIELD', 'DIRT ROAD AT NIGHT', 'MYTHICAL NIGHT LEMON',
+            'LEMONY GRAPE CANDY', 'DIRT POND', 'TANGERINE SEA', 'SUMMER HARVEST', 'INVERSED PLUM']
         ]
 
         for row, colors in enumerate(eye_colors):
