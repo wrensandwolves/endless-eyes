@@ -388,7 +388,18 @@ class Sprites:
             # warm ash, sepia, wet phone screen, cerise lit, murky swamp
             ['DUSTY LAMP', 'RUGGED LEATHER', 'PORTAFINO', 'QUEEN BUTTERFLY', 'FIREBUG ON MOSS',
             'OVERCAST COTTON CANDY', 'MANDY', 'SNOWING AFTER DARK', 'AQUA', 'CITY TRASH',
-            'WARM ASH', 'SEPIA', 'WET PHONE SCREEN', 'CERISE LIT', 'MURKY SWAMP']
+            'WARM ASH', 'SEPIA', 'WET PHONE SCREEN', 'CERISE LIT', 'MURKY SWAMP'],
+            
+            # row twenty two
+            # ['316', '317', '318', '319', '320',
+            # '321', '322', '323', ''324, '325',
+            # '326', '327', '328', '329', '400']
+            # soulful taiga, reversed blues, russian violet, tuscan olive, spinel black
+            # chic taupe, anarchist greys, black sunset blaze, precious coral reef, flowered moorland
+            # balloon in the sky, nocturnal expedition, sea turtle green, fire, name me! (400)
+            ['SOULFUL TAIGA', 'REVERSED BLUES', 'RUSSIAN VIOLET', 'TUSCAN OLIVE', 'SPINEL BLACK',
+            'CHIC TAUPE', 'ANARCHIST GREYS', 'BLACK SUNSET BLAZE', 'PRECIOUS CORAL REEF', 'FLOWERED MOORLAND',
+            'BALLOON IN THE SKY', 'NOCTURNAL EXPEDITION', 'SEA TURTLE GREEN', 'FIRE', 'NAME ME! (400)']
         ]
 
         for row, colors in enumerate(eye_colors):
