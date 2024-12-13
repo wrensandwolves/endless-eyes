@@ -377,7 +377,18 @@ class Sprites:
             # river clay, russet, light at sea, chocolate, street caramel
             ['VINTAGE PINK POODLE', 'SPARKING METAL', 'CYBER BLACKLIST', 'LOVELY CHERRY BLOSSOM', 'STRAWBERRY PINK',
             'COFFEE GROUNDSA', 'GLITTERING AMBER', 'KINGFISHER', 'GRAPHITE PENCIL', 'PHEASANT IN SPRING',
-            'RIVER CLAY', 'RUSSET', 'LIGHT AT SEA', 'CHOCOLATE', 'STREET CARAMEL']
+            'RIVER CLAY', 'RUSSET', 'LIGHT AT SEA', 'CHOCOLATE', 'STREET CARAMEL'],
+            
+            # row twenty one
+            # ['301', '302', '303', '304', '305',
+            # '306', '307', '308', '309', '310',
+            # '311', '312', '313', '314', '315']
+            # dusty lamp, rugged leather, portafino, queen butterfly, firebug on moss
+            # overcast cotton candy, mandy, snowing after dark, aqua, city trash
+            # warm ash, sepia, wet phone screen, cerise lit, murky swamp
+            ['DUSTY LAMP', 'RUGGED LEATHER', 'PORTAFINO', 'QUEEN BUTTERFLY', 'FIREBUG ON MOSS',
+            'OVERCAST COTTON CANDY', 'MANDY', 'SNOWING AFTER DARK', 'AQUA', 'CITY TRASH',
+            'WARM ASH', 'SEPIA', 'WET PHONE SCREEN', 'CERISE LIT', 'MURKY SWAMP']
         ]
 
         for row, colors in enumerate(eye_colors):
