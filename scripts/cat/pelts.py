@@ -55,7 +55,7 @@ class Pelt:
                    'classic', 'sokoke', 'agouti', 'singlestripe', 'masked']
 
     pelt_length = ["short", "medium", "long"]
-    eye_colours = [
+    eye_colours = [ 
                     # row one
                     'YELLOW', 'AMBER', 'HAZEL', 'PALE GREEN', 'GREEN',
                      'BLUE', 'DARK BLUE', 'GREY', 'CYAN', 'EMERALD',
@@ -154,8 +154,13 @@ class Pelt:
                     # row twenty
                     'VINTAGE PINK POODLE', 'SPARKING METAL', 'CYBER BLACKLIST', 'LOVELY CHERRY BLOSSOM', 'STRAWBERRY PINK',
                     'COFFEE GROUNDSA', 'GLITTERING AMBER', 'KINGFISHER', 'GRAPHITE PENCIL', 'PHEASANT IN SPRING',
-                    'RIVER CLAY', 'RUSSET', 'LIGHT AT SEA', 'CHOCOLATE', 'STREET CARAMEL'
-                  ]
+                    'RIVER CLAY', 'RUSSET', 'LIGHT AT SEA', 'CHOCOLATE', 'STREET CARAMEL',
+            
+                    # row twenty one
+                    'DUSTY LAMP', 'RUGGED LEATHER', 'PORTAFINO', 'QUEEN BUTTERFLY', 'FIREBUG ON MOSS',
+                    'OVERCAST COTTON CANDY', 'MANDY', 'SNOWING AFTER DARK', 'AQUA', 'CITY TRASH',
+                    'WARM ASH', 'SEPIA', 'WET PHONE SCREEN', 'CERISE LIT', 'MURKY SWAMP'
+                    ]
     yellow_eyes = ['YELLOW', 'AMBER', 'PALEYELLOW', 'GOLD', 'COPPER', 'GREENYELLOW', 'BRONZE', 'SILVER']
     blue_eyes = ['BLUE', 'DARKBLUE', 'CYAN', 'PALEBLUE', 'HEATHERBLUE', 'COBALT', 'SUNLITICE', 'GREY']
     green_eyes = ['PALEGREEN', 'GREEN', 'EMERALD', 'SAGE', 'HAZEL']
