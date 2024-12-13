@@ -159,7 +159,12 @@ class Pelt:
                     # row twenty one
                     'DUSTY LAMP', 'RUGGED LEATHER', 'PORTAFINO', 'QUEEN BUTTERFLY', 'FIREBUG ON MOSS',
                     'OVERCAST COTTON CANDY', 'MANDY', 'SNOWING AFTER DARK', 'AQUA', 'CITY TRASH',
-                    'WARM ASH', 'SEPIA', 'WET PHONE SCREEN', 'CERISE LIT', 'MURKY SWAMP'
+                    'WARM ASH', 'SEPIA', 'WET PHONE SCREEN', 'CERISE LIT', 'MURKY SWAMP',
+            
+                    # row twenty two
+                    'SOULFUL TAIGA', 'REVERSED BLUES', 'RUSSIAN VIOLET', 'TUSCAN OLIVE', 'SPINEL BLACK',
+                    'CHIC TAUPE', 'ANARCHIST GREYS', 'BLACK SUNSET BLAZE', 'PRECIOUS CORAL REEF', 'FLOWERED MOORLAND',
+                    'BALLOON IN THE SKY', 'NOCTURNAL EXPEDITION', 'SEA TURTLE GREEN', 'FIRE', 'NAME ME! (400)'
                     ]
     yellow_eyes = ['YELLOW', 'AMBER', 'PALEYELLOW', 'GOLD', 'COPPER', 'GREENYELLOW', 'BRONZE', 'SILVER']
     blue_eyes = ['BLUE', 'DARKBLUE', 'CYAN', 'PALEBLUE', 'HEATHERBLUE', 'COBALT', 'SUNLITICE', 'GREY']
@@ -324,7 +329,12 @@ class Pelt:
         # row twenty one
         'DUSTY LAMP', 'RUGGED LEATHER', 'PORTAFINO', 'QUEEN BUTTERFLY', 'FIREBUG ON MOSS',
         'OVERCAST COTTON CANDY', 'MANDY', 'SNOWING AFTER DARK', 'AQUA', 'CITY TRASH',
-        'WARM ASH', 'SEPIA', 'WET PHONE SCREEN', 'CERISE LIT', 'MURKY SWAMP'
+        'WARM ASH', 'SEPIA', 'WET PHONE SCREEN', 'CERISE LIT', 'MURKY SWAMP',
+            
+        # row twenty two
+        'SOULFUL TAIGA', 'REVERSED BLUES', 'RUSSIAN VIOLET', 'TUSCAN OLIVE', 'SPINEL BLACK',
+        'CHIC TAUPE', 'ANARCHIST GREYS', 'BLACK SUNSET BLAZE', 'PRECIOUS CORAL REEF', 'FLOWERED MOORLAND',
+        'BALLOON IN THE SKY', 'NOCTURNAL EXPEDITION', 'SEA TURTLE GREEN', 'FIRE', 'NAME ME! (400)'
     ]
 
     eye_sprites = [
