@@ -991,6 +991,8 @@ class Cat:
             colour = "TikTok"
         elif colour == "enchanterspink":
             colour = "enchanter's pink"
+        elif colour == "barbie":
+            colour = "Barbie"
         
         if self.pelt.eye_colour2:
             # heterochromia
@@ -999,6 +1001,8 @@ class Cat:
                 colour = "TikTok"
             if colour == "enchanterspink":
                 colour = "enchanter's pink"
+            if colour == "barbie":
+                colour = "Barbie"
             
             colour = f"{colour} and {colour2}"
         return colour
